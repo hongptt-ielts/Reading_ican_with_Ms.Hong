@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rauschenberg and Warhol Reading</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    background:#f2f2f2;
+}
+
+.header{
+    background:#d71920;
+    color:white;
+    text-align:center;
+    padding:16px;
+    font-size:1.5rem;
+    font-weight:bold;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.sub-header{
+    background:#f5f5f5;
+    color:#333;
+    text-align:center;
+    padding:8px;
+    font-size:1rem;
+    font-weight:bold;
+    border-bottom:2px solid #ddd;
+}
+
+.main-container{
+    display:flex;
+    flex:1;
+    overflow:hidden;
+}
+
+.pane{
+    flex:1;
+    height:100%;
+    overflow-y:auto;
+    padding:28px;
+}
+
+.text-pane{
+    background:#ffffff;
+    border-right:2px solid #ddd;
+    line-height:1.75;
+}
+
+.question-pane{
+    background:#f7f7f7;
+}
+
+h2{
+    margin-bottom:18px;
+    color:#222;
+}
+
+h3{
+    margin-bottom:14px;
+    color:#333;
+}
+
+h4{
+    margin-bottom:10px;
+    color:#d71920;
+}
+
+.paragraph{
+    margin-bottom:26px;
+}
+
+.paragraph strong{
+    color:#d71920;
+    font-size:1.25rem;
+    margin-right:8px;
+}
+
+.paragraph p{
+    margin-top:6px;
+}
+
+.question-block{
+    background:white;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:20px;
+    margin-bottom:24px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.06);
+}
+
+.question-block p{
+    margin-bottom:16px;
+    line-height:1.7;
+    font-size:1rem;
+}
+
+.instruction{
+    background:#eef8d8;
+    border-left:6px solid #9bd300;
+    padding:12px;
+    margin-bottom:18px;
+    line-height:1.6;
+}
+
+.option{
+    display:block;
+    margin:8px 0;
+    line-height:1.6;
+}
+
+select{
+    padding:5px 8px;
+    font-size:0.95rem;
+    margin-left:8px;
+}
+
+.answer-line{
+    border:none;
+    border-bottom:2px solid #000;
+    background:transparent;
+    outline:none;
+    font-size:1rem;
+    min-width:140px;
+    padding:2px 4px;
+}
+
+.answer-line:focus{
+    background:#fff8c6;
+}
+
+.short{
+    width:80px;
+}
+
+.medium{
+    width:150px;
+}
+
+.long{
+    width:230px;
+}
+
+.quote{
+    background:#fafafa;
+    border-left:4px solid #ccc;
+    padding:10px 12px;
+    margin:12px 0;
+    line-height:1.65;
+    font-style:italic;
+}
+
+.match-row{
+    margin-bottom:14px;
+    line-height:1.7;
+}
+
+.small-note{
+    font-size:0.9rem;
+    color:#555;
+    margin-bottom:12px;
+}
+
+@media (max-width:900px){
+
+    .main-container{
+        flex-direction:column;
+    }
+
+    .text-pane{
+        border-right:none;
+        border-bottom:2px solid #ddd;
+    }
+
+    .pane{
+        height:50vh;
+    }
+
+    .answer-line{
+        width:100%;
+        margin-top:6px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+20th Century Modern Art Champions: Rauschenberg and Warhol
+</div>
+
+<div class="sub-header">
+Reading Practice: True, False, Not Given and Multiple Choice
+</div>
+
+<div class="main-container">
+
+<!-- ===========================
+LEFT SIDE - PASSAGE
+============================ -->
+
+<div class="pane text-pane">
+
+<h2>Reading Passage</h2>
+
+<div class="paragraph">
+<strong>A</strong>
+<p>
+The term ‘Modern Art’ refers to art from the period 1860s to 1970s and encompasses the work of such well-known names as Vincent Van Gogh, Paul Cézanne and Pablo Picasso. Modern Art represents the discarding of the artistic traditions of the past in favour of a spirit of experimentation. It conceptualised the functions of art in new ways and introduced different ideas about the nature of materials. Two artists who had a huge impact on modern art in the twentieth century were Robert Rauschenberg and Andy Warhol. Arguably, they both had an important influence on art as we know it today, but whereas Warhol became a household name, Rauschenberg is remembered only by those in the artistic community.
+</p>
+</div>
+
+<div class="paragraph">
+<strong>B</strong>
+<p>
+Milton Ernest Rauschenberg, who later became known as Robert Rauschenberg, was born in Port Arthur, Texas in 1925, while Andrew Warhola, Andy Warhol, was born in 1928 in Pittsburgh, Pennsylvania. Both were of European heritage, born to working class families. In Rauschenberg’s case, his childhood environment was hardly inspiring, a blue-collar town that has been described as a ‘cultural wasteland with no art’. His father had no understanding of art and gave him no encouragement. His mother, on the other hand, supported her son as much as she could. For much of his life, Rauschenberg had been waiting for the opportunity to leave his hot, sticky, industrial home town and he did so in 1944, moving to California.
+</p>
+
+<p>
+Like Rauschenberg, Warhol was close to his mother. A sickly child, he spent a lot of time at home with her. Though he was missing a lot of school, he was developing his artistic skills and tastes, so it was actually an important period of his life. He eventually enrolled in the Carnegie Institute in Pittsburgh, where he took his first steps into the art world. Eventually, both artists gravitated towards New York, which, by the early 1950s, had taken over from Paris as the centre of the Avant Garde.
+</p>
+</div>
+
+<div class="paragraph">
+<strong>C</strong>
+<p>
+Artistically, what the two have in common is the willingness to innovate, take chances and be different from everything that had gone before. Both were a new type of artist who embraced and drew inspiration from popular culture. Both rejected the orthodoxical views of ‘high’ and ‘low’ art. To their minds, anything could be art. Rauschenberg produced paintings and sculptures and even combined them to produce mixed media, working with a variety of less conventional materials including silk, metal and glass. It has been said that ‘the whole world was his canvas’. He was the ultimate scavenger, prepared to use anything he could find in his artworks, even going so far as to incorporate such disparate objects as socks, bedsheets and car parts into his work. His 1953 piece entitled <em>Automobile Tire Print</em> was conceptual art as never seen before and would ensure him a place in the art history books.
+</p>
+</div>
+
+<div class="paragraph">
+<strong>D</strong>
+<p>
+Warhol’s work was equally innovative, drawing from the world around him, but somewhat different in approach. He rose to fame with his iconic <em>Campbell’s Soup Can</em> series, which even today is seen as one of the most definitive images of the Pop Art movement. The simple red and white depictions of an everyday item have been hanging in kitchens and cafés around the world since the 1960s. It’s a similar story for his iconic series of movie star portraits, including such popular culture figures as Marilyn Monroe, Elvis Presley and Elizabeth Taylor.
+</p>
+
+<p>
+Like Rauschenberg, he didn’t limit himself to just one medium. In 1964 he produced his first exhibition of sculpture, which consisted of hundreds of imitation supermarket product boxes, most famously Brillo and Heinz. It was an exhibition which confounded critics and helped cement his credentials as an artist challenging the status quo.
+</p>
+</div>
+
+<div class="paragraph">
+<strong>E</strong>
+<p>
+Not content with subverting the conventional art forms of painting and sculpture, both Rauschenberg and Warhol experimented beyond them. Rauschenberg collaborated with musicians, costume designers, dancers and even scientists, never ceasing to expand the possibilities of what art could be. He has been described as ‘the wind blowing through the art world, pollinating everything’.
+</p>
+
+<p>
+Warhol, too, dabbled in other fields, including rock music and film, and engaged in Performance Art, with his multimedia show <em>The Exploding Plastic Inevitable</em> becoming one of the works he is best remembered for. This show pioneered many lighting innovations which rock musicians have been using in their shows since the 1960s.
+</p>
+</div>
+
+<div class="paragraph">
+<strong>F</strong>
+<p>
+Both Rauschenberg and Warhol were extremely prolific, the former’s career spanning six decades, whilst the latter is a household name whose work has been adopted by several generations. What differentiates them is that Warhol courted publicity. He wrote books and co-founded a magazine, <em>Interview</em>, which reported on film, fashion and popular culture. He socialised with celebrities and had several TV shows, which helped spread his fame.
+</p>
+
+<p>
+In contrast, Rauschenberg didn’t seek the limelight. His name is not widely known outside the art world, but that does not diminish his influence upon it. Given that Warhol’s work is immensely reproducible and commercial, brightly coloured and attractive to buyers, it is easy to see why Rauschenberg’s productions with salvaged garbage and street signs would lack the same popular appeal. However, this great innovator still deserves to be remembered for his unique contribution to Modern Art.
+</p>
+</div>
+
+</div>
+
+<!-- ===========================
+RIGHT SIDE - QUESTIONS
+============================ -->
+
+<div class="pane question-pane">
+
+<div class="question-block">
+<h2>True, False, Not Given</h2>
+
+<div class="instruction">
+TRUE means the information matches what the text says. FALSE means the information is contradicted by the text. NOT GIVEN means the text does not give enough information to decide.
+</div>
+
+<h3>Exercise 03</h3>
+<p>
+Read the text quickly. Which statement matches the structure of the text?
+</p>
+
+<label class="option">
+<input type="radio" name="ex03"> A. A history of Modern Art
+</label>
+
+<label class="option">
+<input type="radio" name="ex03"> B. A look at the similarities and differences between two Modern artists
+</label>
+
+<label class="option">
+<input type="radio" name="ex03"> C. A look at the strengths and weaknesses of two Modern artists
+</label>
+</div>
+
+<div class="question-block">
+<h3>Exercise 04</h3>
+<p>Which paragraph contains the following information?</p>
+
+<div class="match-row">
+1. The materials Rauschenberg worked with
+<select>
+<option></option>
+<option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
+</select>
+</div>
+
+<div class="match-row">
+2. Why Warhol is more famous than Rauschenberg
+<select>
+<option></option>
+<option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
+</select>
+</div>
+
+<div class="match-row">
+3. A definition of Modern Art
+<select>
+<option></option>
+<option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
+</select>
+</div>
+
+<div class="match-row">
+4. The artists’ early lives
+<select>
+<option></option>
+<option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
+</select>
+</div>
+
+<div class="match-row">
+5. Warhol’s main work
+<select>
+<option></option>
+<option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
+</select>
+</div>
+
+<div class="match-row">
+6. Both artists’ performance art
+<select>
+<option></option>
+<option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
+</select>
+</div>
+</div>
+
+<div class="question-block">
+<h3>Exercise 05</h3>
+<p>
+Read Paragraph B carefully. Match each statement with its answer.
+</p>
+
+<div class="match-row">
+1. Rauschenberg was often unwell as a child.
+<select>
+<option></option>
+<option>True</option>
+<option>False</option>
+<option>Not Given</option>
+</select>
+</div>
+
+<div class="match-row">
+2. Both artists had a positive relationship with their mothers.
+<select>
+<option></option>
+<option>True</option>
+<option>False</option>
+<option>Not Given</option>
+</select>
+</div>
+
+<div class="match-row">
+3. Warhol began to develop his ability as an artist when he went to New York.
+<select>
+<option></option>
+<option>True</option>
+<option>False</option>
+<option>Not Given</option>
+</select>
+</div>
+</div>
+
+<div class="question-block">
+<h3>Exercise 06</h3>
+<p>
+Highlight the parts of the text where you found the information for Exercise 05.
+</p>
+
+<p>
+Why might some candidates think the Not Given statement was True or False?
+</p>
+
+<textarea style="width:100%; height:90px; padding:10px; font-size:1rem;"></textarea>
+</div>
+
+<div class="question-block">
+<h3>Exercise 07</h3>
+<p>
+Statements 1-3 are Not Given in the text. Match them with the reasons some candidates might think they are given.
+</p>
+
+<p class="small-note">
+Reasons:
+<br>a. This information is given but about a different person.
+<br>b. Some of the words are used in the text.
+<br>c. We might expect this to be true, given the focus on these two artists in the text.
+</p>
+
+<div class="match-row">
+1. Conventional materials are not used in Modern Art.
+<select>
+<option></option>
+<option>a</option>
+<option>b</option>
+<option>c</option>
+</select>
+</div>
+
+<div class="match-row">
+2. Rauschenberg and Warhol influenced each other’s work.
+<select>
+<option></option>
+<option>a</option>
+<option>b</option>
+<option>c</option>
+</select>
+</div>
+
+<div class="match-row">
+3. Warhol grew up in a working class part of his home town.
+<select>
+<option></option>
+<option>a</option>
+<option>b</option>
+<option>c</option>
+</select>
+</div>
+</div>
+
+<div class="question-block">
+<h3>Exercise 08</h3>
+<p>
+Read paragraphs A, B and C. Are the following True, False or Not Given?
+</p>
+
+<div class="match-row">
+1. Neither artist is known by their birth name.
+<select>
+<option></option>
+<option>True</option>
+<option>False</option>
+<option>Not Given</option>
+</select>
+</div>
+
+<div class="match-row">
+2. Rauschenberg first achieved artistic fame in his home town.
+<select>
+<option></option>
+<option>True</option>
+<option>False</option>
+<option>Not Given</option>
+</select>
+</div>
+
+<div class="match-row">
+3. Paris was the best place for Modern artists in the 1950s.
+<select>
+<option></option>
+<option>True</option>
+<option>False</option>
+<option>Not Given</option>
+</select>
+</div>
+
+<div class="match-row">
+4. Neither artist believed in distinguishing between high and low art.
+<select>
+<option></option>
+<option>True</option>
+<option>False</option>
+<option>Not Given</option>
+</select>
+</div>
+
+<div class="match-row">
+5. Art critics were shocked by Rauschenberg’s use of everyday objects in his work.
+<select>
+<option></option>
+<option>True</option>
+<option>False</option>
+<option>Not Given</option>
+</select>
+</div>
+</div>
+
+<div class="question-block">
+<h2>Multiple-Choice Questions</h2>
+
+<div class="instruction">
+The multiple-choice task consists of questions and sentences to complete. In both cases, there are four options to choose from.
+</div>
+
+<h3>Exercise 09</h3>
+<p>
+Read the question below but cover the options. Write your own answer. Then compare it to the options.
+</p>
+
+<p>
+<strong>1. What is the main similarity between Warhol and Rauschenberg in terms of their work?</strong>
+</p>
+
+<label class="option">
+<input type="radio" name="ex09"> A. They always used unusual materials.
+</label>
+
+<label class="option">
+<input type="radio" name="ex09"> B. They both became very famous.
+</label>
+
+<label class="option">
+<input type="radio" name="ex09"> C. They were both risk takers.
+</label>
+
+<label class="option">
+<input type="radio" name="ex09"> D. Their work always combined painting and sculpture.
+</label>
+</div>
+
+<div class="question-block">
+<h3>Exercise 10</h3>
+<p>
+Read the parts of the text that correspond to each option in Exercise 09. Match them with the explanations that follow.
+</p>
+
+<div class="quote">
+<strong>A.</strong> He was the ultimate scavenger, prepared to use anything he could find in his artworks, even going so far as to incorporate such disparate objects as socks, bedsheets and car parts into his work.
+</div>
+
+<div class="quote">
+<strong>B.</strong> ... whereas Warhol became a household name, Rauschenberg is remembered only by those in the artistic community.
+</div>
+
+<div class="quote">
+<strong>C.</strong> Artistically, what the two have in common is the willingness to innovate, take chances and be different from everything that had gone before.
+</div>
+
+<div class="quote">
+<strong>D.</strong> Rauschenberg produced paintings and sculptures and even combined them to produce mixed media, working with a variety of less conventional materials including silk, metal and glass. Like Rauschenberg, he didn’t limit himself to just one medium. In 1964 he produced his first exhibition of sculpture, which consisted of hundreds of imitation supermarket product boxes, most famously Brillo and Heinz.
+</div>
+
+<p class="small-note">
+Explanations:
+<br>1. This cannot be the answer because the artists produced paintings and sculpture, not always a combination of the two.
+<br>2. This is the correct answer.
+<br>3. This cannot be the answer because it only refers to Rauschenberg.
+<br>4. This cannot be the answer because it tells us that only Warhol gained fame.
+</p>
+
+<div class="match-row">
+Option A
+<select>
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+</div>
+
+<div class="match-row">
+Option B
+<select>
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+</div>
+
+<div class="match-row">
+Option C
+<select>
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+</div>
+
+<div class="match-row">
+Option D
+<select>
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+</div>
+</div>
+
+<div class="question-block">
+<h3>Exercise 11</h3>
+<p>
+Now answer this question by finding the relevant section of the text. Explain to your partner why the other options are incorrect.
+</p>
+
+<p>
+<strong>In what way are the artists’ backgrounds similar?</strong>
+</p>
+
+<label class="option">
+<input type="radio" name="ex11"> A. Their mothers were the most important influence on them.
+</label>
+
+<label class="option">
+<input type="radio" name="ex11"> B. They were born in America to families with ancestry in Europe.
+</label>
+
+<label class="option">
+<input type="radio" name="ex11"> C. Their families pushed them to go to Art School.
+</label>
+
+<label class="option">
+<input type="radio" name="ex11"> D. Their families moved to New York.
+</label>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
